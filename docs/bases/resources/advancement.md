@@ -1,5 +1,5 @@
 ---
-sidebar_position: 4
+sidebar_position: 6
 title: Progrès
 description: Comment sont structurées les progrès dans Minecraft ?
 tags: [bases, ressources]
@@ -32,6 +32,9 @@ tags: [bases, ressources]
     [
       //Critères requis pour valider le progrès
     ]
-  ]
+  ],
+  "rewards": {
+    //Récompense(s)
+  }
 }
 ```
