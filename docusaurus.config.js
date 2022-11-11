@@ -239,6 +239,16 @@ module.exports = {
           },
         ],
       },
-    ]
+    ],
+    [
+      '@docusaurus/plugin-ideal-image',
+      {
+        quality: 70,
+        steps: 3, // the max number of images generated between min and max (inclusive)
+        max: 1920, // max resized image's size.
+        min: 640, // min resized image's size. if original is lower, use that size.
+        disableInDev: false,
+      },
+    ],
   ],
 };
